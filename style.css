@@ -1,0 +1,28 @@
+.margin{
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+.padding{
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    padding: 50px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    flex-direction: row;
+  }
+  
+  .flex-container > div {
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+    margin-left: 1em;
+    margin-top: 1em;
+ 
+  }
